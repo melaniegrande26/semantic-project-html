@@ -1,1 +1,51 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f5f6f8;
+	margin: 0;
+	padding: 0;
+}
 
+.container {
+	max-width: 900px;
+	margin: 24px auto;
+	padding: 0 16px;
+}
+
+h1 {
+	font-size: 36px;
+	margin: 18px 0 12px 0;
+}
+
+h2 {
+	color: #0f766e; /* this will be overridden by the embedded CSS in index.html */
+	border-bottom: 2px solid #d1d5db;
+	padding-bottom: 6px;
+	margin-top: 0;
+}
+
+p {
+	line-height: 1.6;
+	margin: 10px 0;
+}
+
+a {
+	color: #7c3aed;
+}
+
+/* Required reusable class */
+.section-box {
+	padding: 12px;
+	border: 1px solid #e5e7eb;
+	border-radius: 10px;
+	background-color: #ffffff;
+	margin-bottom: 14px;
+}
+
+.profile-pic {
+	width: 180px;
+	height: auto;
+	border-radius: 10px;
+	border: 1px solid #e5e7eb;
+	display: block;
+	margin: 10px 0 16px 0;
+}
